@@ -1,72 +1,97 @@
-@media screen  and (max-width:780px){
-    .banner-container{
+@media screen and (max-width:780px) {
+    .banner-container {
         flex-direction: column-reverse;
-       
-        
-       
+
+
+
 
     }
-    .favicon{
-        width:auto;
+
+    .favicon {
+        width: auto;
     }
-    nav{
+
+    nav {
         box-shadow: none;
-      }
-   .menu-items{
-    width:70%;
-    margin:0 auto 50px;
-    
-   }
-    
-        .banner{
-            background-size: 100vw 39%;
-          
-            background-position:40px bottom;
-        }
-        .nav-container{
-            flex-direction: column;
-    
-        }
-        .banner-img,.banner-text{
-            width:100%;
-        }
-        .banner-img img{
-            width:100%;
-            margin:0 auto;
-        }
-        .banner-text{
-            text-align: center;
-            margin:0 auto;
-        }
-        .goat{
-            font-size: 60px;
-        }
-        .play{
-            font-size: 35px;
-        }
-        /* Funny-videos section starts here */
-        .section-title {
-            font-size: 30px;
-        }
+    }
 
-        /* downloads section starts here */
-        .download-section-container{
-            gap:90px;
-        }
-        .container-info{
-            text-align: center;
-        }
-        .container-info h3 {
-            font-size: 26px;
-        }
-        .section-description{
-            font-size: 19px;
-        }
-    
-    
+    .menu-items {
+        width: 70%;
+        margin: 0 auto 50px;
 
     }
-    
+
+    .banner {
+        background-size: 100vw 39%;
+
+        background-position: 40px bottom;
+    }
+
+    .nav-container {
+        flex-direction: column;
+
+    }
+
+    .banner-img,
+    .banner-text {
+        width: 100%;
+    }
+
+    .banner-img img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .banner-text {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .goat {
+        font-size: 60px;
+    }
+
+    .play {
+        font-size: 35px;
+    }
+
+    /* Funny-videos section starts here */
+    .section-title {
+        font-size: 30px;
+    }
+
+    /* downloads section starts here */
+    .download-section-container {
+        gap: 90px;
+    }
+
+    .container-info {
+        text-align: center;
+    }
+
+    .container-info h3 {
+        font-size: 26px;
+    }
+
+    .section-description {
+        font-size: 19px;
+    }
+
+    /* game section start here */
+    .game:hover {
+        border: 1px solid #FF42A5;
+
+
+    }
+
+    .game:hover .game-name {
+        color: #FF42A5;
+    }
+
+
+
+}
+
 
 
 
@@ -78,118 +103,171 @@
 
 
 @media screen and (min-width:425px) and (max-width:576px) {
-    
-    
-    .nav-container,.banner-container,.menu-items,.Funny-videos-section-container,.download-section-container{
+
+
+    .nav-container,
+    .banner-container,
+    .menu-items,
+    .Funny-videos-section-container,
+    .download-section-container {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-       
+
 
     }
-    main{
-        margin-top:40px;
+
+    main {
+        margin-top: 40px;
     }
-    .nav-container{
+
+    .nav-container {
         margin-bottom: 20px;
     }
-    nav{
-      box-shadow: none;
+
+    nav {
+        box-shadow: none;
     }
-    header{
+
+    header {
         margin-bottom: 40px;
     }
-    .menu-items{
+
+    .menu-items {
         text-align: center;
     }
-    .menu-items a{
-        margin-bottom:12px;
+
+    .menu-items a {
+        margin-bottom: 12px;
     }
-    .menu-items div{
+
+    .menu-items div {
         margin-top: 63px;
     }
-    .background-icon{
+
+    .background-icon {
         padding: 16px 10px;
-    
+
     }
-    .align{
+
+    .align {
         margin-left: 0px;
     }
-    .fa-brands{
-        font-size:12px;
+
+    .fa-brands {
+        font-size: 12px;
         margin-right: 0px;
         /* margin-bottom: 30px; */
     }
-    .banner{
+
+    .banner {
         background-size: 400px 46%;
-        background-position:40px bottom;
+        background-position: 40px bottom;
     }
-    
-    .banner-container{
+
+    .banner-container {
         flex-direction: column-reverse;
     }
-    .banner-img{
-        width:100%;
-      
+
+    .banner-img {
+        width: 100%;
+
     }
-    .banner-img img{
-        width:50%;
-        margin:0 auto;
-      
+
+    .banner-img img {
+        width: 50%;
+        margin: 0 auto;
+
     }
-    .favicon{
-        width:auto;
+
+    .favicon {
+        width: auto;
     }
-    .banner-text{
-    
+
+    .banner-text {
+
         width: 90%;
-        margin:0 auto;
+        margin: 0 auto;
         /* text-align: center; */
     }
-    .banner-text p{
-       font-size: 14px;
-       font-weight: 400;
+
+    .banner-text p {
+        font-size: 14px;
+        font-weight: 400;
     }
+
     .banner-img img {
         width: 100%;
         /* margin-top:30px; */
     }
 
-    .goat{
+    .goat {
         font-size: 40px;
     }
-    .play{
+
+    .play {
         font-size: 25px;
     }
-    .primary-button,.special-button {
-        padding:10px 15px;
+
+    .primary-button,
+    .special-button {
+        padding: 10px 15px;
         font-size: 14px;
         font-weight: 400;
     }
-    /* game section stats here */
+
     .section-title {
         font-size: 16px;
         margin: 0;
         padding: 0;
     }
+
     .section-text {
         font-size: 12px;
         margin: 0;
         padding: 0;
     }
-    .Funny-videos-section-container div{
-        width:50%;
+
+    .Funny-videos-section-container div {
+        width: 50%;
     }
+
     /* download section start here */
-    .download-section-container{
-        gap:0px;
+    .download-section-container {
+        gap: 0px;
     }
-    .container-info{
+
+    .container-info {
         text-align: center;
     }
-    .container-info h3,.section-description {
+
+    .container-info h3,
+    .section-description {
         font-size: 16px;
     }
 
-    
+    /* game section stats here */
+    .game:hover {
+        border: 1px solid #FF42A5;
+
+
+    }
+
+    .game:hover .game-name {
+        color: #FF42A5;
+    }
+
+    /* footer section style */
+    .footer-text-container {
+        margin-bottom: 15px;
+    }
+
+    .copyright a {
+
+        font-size: 15px;
+        font-weight: 500;
+
+    }
+
+
 }
