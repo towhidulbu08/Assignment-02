@@ -346,5 +346,6 @@ nav .menu-items a {
 .footer{
     background: #0B0223;
     min-height: 400px;
-    margin-top: 0px;;
+    margin-top: 0px;
+    text-align: center;
 }
