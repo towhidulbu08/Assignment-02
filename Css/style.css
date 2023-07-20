@@ -223,9 +223,65 @@ nav .menu-items a {
 }
 
 .Funny-videos-section-container div {
-    width: 25%;
+    width: 100%;
+   
     /* margin:0 auto; */
 }
+
+.container {
+    position: relative;
+   
+   
+    
+   
+}
+
+.image {
+    /* display: block;
+    width:100%;
+    height: auto; */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 82%;
+    opacity: 0;
+    transition: .3s ease;
+    border-radius: 15px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%);
+   
+
+}
+.text {
+    position: absolute;
+    top:52%;
+    left: 20%;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+.container:hover .overlay {
+    opacity: 1;
+  }
+  .fa-user:hover {
+    color: #eee;
+  }
+
+.icon {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+}
+
 
 .Funny-videos-section-container div img {
     width: 100%;
@@ -436,8 +492,7 @@ nav .menu-items a {
     align-content: center;
 }
 
-.copyright {
-}
+.copyright {}
 
 .copyright a {
     text-decoration: none;
